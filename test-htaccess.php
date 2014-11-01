@@ -19,7 +19,7 @@ file_put_contents($rdir.'.htaccess', $data);
 $url = 'http://'.$_SERVER[HTTP_HOST].$testdir;
 
 $handle = curl_init($url);
-curl_setopt($handle,  CURLOPT_RETURNTRANSFER, TRUE);
+curl_setopt($handle, CURLOPT_RETURNTRANSFER, TRUE);
 $response = curl_exec($handle);
 $httpCode = curl_getinfo($handle, CURLINFO_HTTP_CODE);
 curl_close($handle);
