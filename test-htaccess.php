@@ -10,7 +10,7 @@ if (!file_exists($rdir)) {
 }
 
 $data = 'ErrorDocument 404 /404.html'; // Korrekt
-$data = 'ErrorDocument 404 /404.html'; // Fehler
+//$data = 'Error Document 404 /404.html'; // Fehler
 
 file_put_contents($rdir.'index.html', '');
 file_put_contents($rdir.'.htaccess', $data);
