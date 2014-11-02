@@ -24,6 +24,6 @@ $response = curl_exec($handle);
 $httpCode = curl_getinfo($handle, CURLINFO_HTTP_CODE);
 curl_close($handle);
 
-echo $httpCode;
+echo $httpCode; // 200 => OK, 500 = ERROR
 
 ?>
