@@ -1,7 +1,10 @@
-.htaccess-validation-with-php
+.htaccess validation with PHP
 =============================
 
-Validate .htaccess-files with PHP.
+## Proof of concept! *...it works!*
+
+Validate .htaccess-files with PHP. 
+
 
 
 <br />
