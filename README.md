@@ -8,9 +8,9 @@ Validate .htaccess-files with PHP.
 ### Idea behind it!
 
 The *idea* behind this script is to allow changing the .htaccess over the website (e.g. CMS) without losing control over the server.
-If you made a typo or an error, the server is sending a "Internal server error" (500) and you cannot work over the website anymore! This script will *automatically* write the old content back, if you are producing an internal server error.
+If you made a typo or an error, the server is sending a "Internal server error" (500) and you cannot correct the .htaccess over the website anymore! This script will *automatically* write the old content back, if you are producing an internal server error. So you will be safe.
 
-Do not lose control! :-)
+Do not lose control anymore! :-)
 
 
 
