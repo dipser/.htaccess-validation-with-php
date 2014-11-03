@@ -1,13 +1,14 @@
 .htaccess validation with PHP
 =============================
 
-## Proof of concept! *...it works!*
+###### Proof of concept *...it works!*
 
 Validate .htaccess-files with PHP. 
 
 
 
 <br />
+---
 ### Idea behind it...
 
 The *idea* behind this script is to allow changing the .htaccess over the website (e.g. CMS) without losing control over the server.
