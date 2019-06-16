@@ -8,7 +8,9 @@ Validate .htaccess-files with PHP.
 
 
 <br />
+
 ---
+
 ### Idea behind it...
 
 The *idea* behind this script is to allow changing the .htaccess over the website (e.g. CMS) without losing control over the server.
@@ -19,6 +21,9 @@ Do not lose control anymore! :-)
 
 
 <br />
+
 ---
+
 ### Autor
+
 Aurel *'[dipser](http://github.com/dipser)'* Hermand
